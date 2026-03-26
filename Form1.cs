@@ -212,7 +212,7 @@ namespace Task3_Calculator
         {
             try
             {
-                //пока без тригонометрии
+                //пока без инженерного
                 System.Data.DataTable dt = new System.Data.DataTable();
                 var result = dt.Compute(expression, null);
                 return result.ToString();

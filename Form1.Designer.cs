@@ -76,266 +76,295 @@
             // OutputWindow
             // 
             resources.ApplyResources(OutputWindow, "OutputWindow");
-            OutputWindow.BorderStyle = BorderStyle.FixedSingle;
-            OutputWindow.ForeColor = Color.FromArgb(30, 30, 143);
+            OutputWindow.BackColor = Color.White;
+            OutputWindow.ForeColor = Color.FromArgb(247, 66, 132);
             OutputWindow.Name = "OutputWindow";
             // 
             // ButtonPlus
             // 
             resources.ApplyResources(ButtonPlus, "ButtonPlus");
+            ButtonPlus.BackColor = Color.White;
             ButtonPlus.Cursor = Cursors.Hand;
             ButtonPlus.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonPlus.Name = "ButtonPlus";
-            ButtonPlus.UseVisualStyleBackColor = true;
+            ButtonPlus.UseVisualStyleBackColor = false;
             ButtonPlus.Click += ButtonPlus_Click;
             // 
             // ButtonMinus
             // 
             resources.ApplyResources(ButtonMinus, "ButtonMinus");
+            ButtonMinus.BackColor = Color.White;
             ButtonMinus.Cursor = Cursors.Hand;
             ButtonMinus.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonMinus.Name = "ButtonMinus";
-            ButtonMinus.UseVisualStyleBackColor = true;
+            ButtonMinus.UseVisualStyleBackColor = false;
             ButtonMinus.Click += ButtonMinus_Click;
             // 
             // ButtonMultiply
             // 
             resources.ApplyResources(ButtonMultiply, "ButtonMultiply");
+            ButtonMultiply.BackColor = Color.White;
             ButtonMultiply.Cursor = Cursors.Hand;
             ButtonMultiply.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonMultiply.Name = "ButtonMultiply";
-            ButtonMultiply.UseVisualStyleBackColor = true;
+            ButtonMultiply.UseVisualStyleBackColor = false;
             ButtonMultiply.Click += ButtonMultiply_Click;
             // 
             // ButtonDivide
             // 
             resources.ApplyResources(ButtonDivide, "ButtonDivide");
+            ButtonDivide.BackColor = Color.White;
             ButtonDivide.Cursor = Cursors.Hand;
             ButtonDivide.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonDivide.Name = "ButtonDivide";
-            ButtonDivide.UseVisualStyleBackColor = true;
+            ButtonDivide.UseVisualStyleBackColor = false;
             ButtonDivide.Click += ButtonDivide_Click;
             // 
             // ButtonClearAll
             // 
             resources.ApplyResources(ButtonClearAll, "ButtonClearAll");
+            ButtonClearAll.BackColor = Color.White;
             ButtonClearAll.Cursor = Cursors.Hand;
             ButtonClearAll.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonClearAll.Name = "ButtonClearAll";
-            ButtonClearAll.UseVisualStyleBackColor = true;
+            ButtonClearAll.UseVisualStyleBackColor = false;
             ButtonClearAll.Click += ButtonClearAll_Click;
             // 
             // ButtonOne
             // 
             resources.ApplyResources(ButtonOne, "ButtonOne");
+            ButtonOne.BackColor = Color.White;
             ButtonOne.Cursor = Cursors.Hand;
             ButtonOne.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonOne.Name = "ButtonOne";
-            ButtonOne.UseVisualStyleBackColor = true;
+            ButtonOne.UseVisualStyleBackColor = false;
             ButtonOne.Click += ButtonOne_Click;
             // 
             // ButtonTwo
             // 
             resources.ApplyResources(ButtonTwo, "ButtonTwo");
+            ButtonTwo.BackColor = Color.White;
             ButtonTwo.Cursor = Cursors.Hand;
             ButtonTwo.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonTwo.Name = "ButtonTwo";
-            ButtonTwo.UseVisualStyleBackColor = true;
+            ButtonTwo.UseVisualStyleBackColor = false;
             ButtonTwo.Click += ButtonTwo_Click;
             // 
             // ButtonThree
             // 
             resources.ApplyResources(ButtonThree, "ButtonThree");
+            ButtonThree.BackColor = Color.White;
             ButtonThree.Cursor = Cursors.Hand;
             ButtonThree.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonThree.Name = "ButtonThree";
-            ButtonThree.UseVisualStyleBackColor = true;
+            ButtonThree.UseVisualStyleBackColor = false;
             ButtonThree.Click += ButtonThree_Click;
             // 
             // ButtonFour
             // 
             resources.ApplyResources(ButtonFour, "ButtonFour");
+            ButtonFour.BackColor = Color.White;
             ButtonFour.Cursor = Cursors.Hand;
             ButtonFour.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonFour.Name = "ButtonFour";
-            ButtonFour.UseVisualStyleBackColor = true;
+            ButtonFour.UseVisualStyleBackColor = false;
             ButtonFour.Click += ButtonFour_Click;
             // 
             // ButtonFive
             // 
             resources.ApplyResources(ButtonFive, "ButtonFive");
+            ButtonFive.BackColor = Color.White;
             ButtonFive.Cursor = Cursors.Hand;
             ButtonFive.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonFive.Name = "ButtonFive";
-            ButtonFive.UseVisualStyleBackColor = true;
+            ButtonFive.UseVisualStyleBackColor = false;
             ButtonFive.Click += ButtonFive_Click;
             // 
             // ButtonSix
             // 
             resources.ApplyResources(ButtonSix, "ButtonSix");
+            ButtonSix.BackColor = Color.White;
             ButtonSix.Cursor = Cursors.Hand;
             ButtonSix.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonSix.Name = "ButtonSix";
-            ButtonSix.UseVisualStyleBackColor = true;
+            ButtonSix.UseVisualStyleBackColor = false;
             ButtonSix.Click += ButtonSix_Click;
             // 
             // ButtonSeven
             // 
             resources.ApplyResources(ButtonSeven, "ButtonSeven");
+            ButtonSeven.BackColor = Color.White;
             ButtonSeven.Cursor = Cursors.Hand;
             ButtonSeven.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonSeven.Name = "ButtonSeven";
-            ButtonSeven.UseVisualStyleBackColor = true;
+            ButtonSeven.UseVisualStyleBackColor = false;
             ButtonSeven.Click += ButtonSeven_Click;
             // 
             // ButtonEight
             // 
             resources.ApplyResources(ButtonEight, "ButtonEight");
+            ButtonEight.BackColor = Color.White;
             ButtonEight.Cursor = Cursors.Hand;
             ButtonEight.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonEight.Name = "ButtonEight";
-            ButtonEight.UseVisualStyleBackColor = true;
+            ButtonEight.UseVisualStyleBackColor = false;
             ButtonEight.Click += ButtonEight_Click;
             // 
             // ButtonNine
             // 
             resources.ApplyResources(ButtonNine, "ButtonNine");
+            ButtonNine.BackColor = Color.White;
             ButtonNine.Cursor = Cursors.Hand;
             ButtonNine.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonNine.Name = "ButtonNine";
-            ButtonNine.UseVisualStyleBackColor = true;
+            ButtonNine.UseVisualStyleBackColor = false;
             ButtonNine.Click += ButtonNine_Click;
             // 
             // ButtonNull
             // 
             resources.ApplyResources(ButtonNull, "ButtonNull");
+            ButtonNull.BackColor = Color.White;
             ButtonNull.Cursor = Cursors.Hand;
             ButtonNull.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonNull.Name = "ButtonNull";
-            ButtonNull.UseVisualStyleBackColor = true;
+            ButtonNull.UseVisualStyleBackColor = false;
             ButtonNull.Click += ButtonNull_Click;
             // 
             // ButtonLeftParenthesis
             // 
             resources.ApplyResources(ButtonLeftParenthesis, "ButtonLeftParenthesis");
+            ButtonLeftParenthesis.BackColor = Color.White;
             ButtonLeftParenthesis.Cursor = Cursors.Hand;
             ButtonLeftParenthesis.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonLeftParenthesis.Name = "ButtonLeftParenthesis";
-            ButtonLeftParenthesis.UseVisualStyleBackColor = true;
+            ButtonLeftParenthesis.UseVisualStyleBackColor = false;
             ButtonLeftParenthesis.Click += ButtonLeftParenthesis_Click;
             // 
             // ButtonRightParenthesis
             // 
             resources.ApplyResources(ButtonRightParenthesis, "ButtonRightParenthesis");
+            ButtonRightParenthesis.BackColor = Color.White;
             ButtonRightParenthesis.Cursor = Cursors.Hand;
             ButtonRightParenthesis.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonRightParenthesis.Name = "ButtonRightParenthesis";
-            ButtonRightParenthesis.UseVisualStyleBackColor = true;
+            ButtonRightParenthesis.UseVisualStyleBackColor = false;
             ButtonRightParenthesis.Click += ButtonRightParenthesis_Click;
             // 
             // ButtonPoint
             // 
             resources.ApplyResources(ButtonPoint, "ButtonPoint");
+            ButtonPoint.BackColor = Color.White;
             ButtonPoint.Cursor = Cursors.Hand;
             ButtonPoint.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonPoint.Name = "ButtonPoint";
-            ButtonPoint.UseVisualStyleBackColor = true;
+            ButtonPoint.UseVisualStyleBackColor = false;
             ButtonPoint.Click += ButtonPoint_Click;
             // 
             // ButtonEquals
             // 
             resources.ApplyResources(ButtonEquals, "ButtonEquals");
+            ButtonEquals.BackColor = Color.White;
             ButtonEquals.Cursor = Cursors.Hand;
             ButtonEquals.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonEquals.Name = "ButtonEquals";
-            ButtonEquals.UseVisualStyleBackColor = true;
+            ButtonEquals.UseVisualStyleBackColor = false;
             ButtonEquals.Click += ButtonEquals_Click;
             // 
             // ButtonCos
             // 
             resources.ApplyResources(ButtonCos, "ButtonCos");
+            ButtonCos.BackColor = Color.White;
             ButtonCos.Cursor = Cursors.Hand;
             ButtonCos.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonCos.Name = "ButtonCos";
-            ButtonCos.UseVisualStyleBackColor = true;
+            ButtonCos.UseVisualStyleBackColor = false;
             ButtonCos.Click += ButtonCos_Click;
             // 
             // ButtonSin
             // 
             resources.ApplyResources(ButtonSin, "ButtonSin");
+            ButtonSin.BackColor = Color.White;
             ButtonSin.Cursor = Cursors.Hand;
             ButtonSin.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonSin.Name = "ButtonSin";
-            ButtonSin.UseVisualStyleBackColor = true;
+            ButtonSin.UseVisualStyleBackColor = false;
             ButtonSin.Click += ButtonSin_Click;
             // 
             // ButtonTg
             // 
             resources.ApplyResources(ButtonTg, "ButtonTg");
+            ButtonTg.BackColor = Color.White;
             ButtonTg.Cursor = Cursors.Hand;
             ButtonTg.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonTg.Name = "ButtonTg";
-            ButtonTg.UseVisualStyleBackColor = true;
+            ButtonTg.UseVisualStyleBackColor = false;
             ButtonTg.Click += ButtonTg_Click;
             // 
             // ButtonLn
             // 
             resources.ApplyResources(ButtonLn, "ButtonLn");
+            ButtonLn.BackColor = Color.White;
             ButtonLn.Cursor = Cursors.Hand;
             ButtonLn.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonLn.Name = "ButtonLn";
-            ButtonLn.UseVisualStyleBackColor = true;
+            ButtonLn.UseVisualStyleBackColor = false;
             ButtonLn.Click += ButtonLn_Click;
             // 
             // ButtonExponentiation
             // 
             resources.ApplyResources(ButtonExponentiation, "ButtonExponentiation");
+            ButtonExponentiation.BackColor = Color.White;
             ButtonExponentiation.Cursor = Cursors.Hand;
             ButtonExponentiation.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonExponentiation.Name = "ButtonExponentiation";
-            ButtonExponentiation.UseVisualStyleBackColor = true;
+            ButtonExponentiation.UseVisualStyleBackColor = false;
             ButtonExponentiation.Click += ButtonExponentiation_Click;
             // 
             // ButtonSqrt
             // 
             resources.ApplyResources(ButtonSqrt, "ButtonSqrt");
+            ButtonSqrt.BackColor = Color.White;
             ButtonSqrt.Cursor = Cursors.Hand;
             ButtonSqrt.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonSqrt.Name = "ButtonSqrt";
-            ButtonSqrt.UseVisualStyleBackColor = true;
+            ButtonSqrt.UseVisualStyleBackColor = false;
             ButtonSqrt.Click += ButtonSqrt_Click;
             // 
             // ButtonLog
             // 
             resources.ApplyResources(ButtonLog, "ButtonLog");
+            ButtonLog.BackColor = Color.White;
             ButtonLog.Cursor = Cursors.Hand;
             ButtonLog.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonLog.Name = "ButtonLog";
-            ButtonLog.UseVisualStyleBackColor = true;
+            ButtonLog.UseVisualStyleBackColor = false;
             ButtonLog.Click += ButtonLog_Click;
             // 
             // ButtonE
             // 
             resources.ApplyResources(ButtonE, "ButtonE");
+            ButtonE.BackColor = Color.White;
             ButtonE.Cursor = Cursors.Hand;
             ButtonE.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonE.Name = "ButtonE";
-            ButtonE.UseVisualStyleBackColor = true;
+            ButtonE.UseVisualStyleBackColor = false;
             ButtonE.Click += ButtonE_Click;
             // 
             // ButtonPi
             // 
             resources.ApplyResources(ButtonPi, "ButtonPi");
+            ButtonPi.BackColor = Color.White;
             ButtonPi.Cursor = Cursors.Hand;
             ButtonPi.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonPi.Name = "ButtonPi";
-            ButtonPi.UseVisualStyleBackColor = true;
+            ButtonPi.UseVisualStyleBackColor = false;
             ButtonPi.Click += ButtonPi_Click;
             // 
             // Calculator
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(214, 214, 255);
             Controls.Add(ButtonPi);
             Controls.Add(ButtonE);
             Controls.Add(ButtonLog);

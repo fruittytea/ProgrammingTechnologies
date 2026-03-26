@@ -128,6 +128,10 @@
   <data name="ButtonRemove.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 54</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtonRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
   <data name="OutputWindow.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 45</value>
   </data>
@@ -140,17 +144,29 @@
   <data name="ButtonPlus.Location" type="System.Drawing.Point, System.Drawing">
     <value>169, 173</value>
   </data>
+  <data name="ButtonPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
   <data name="ButtonMinus.Location" type="System.Drawing.Point, System.Drawing">
     <value>169, 219</value>
   </data>
+  <data name="ButtonMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
   <data name="ButtonMultiply.Location" type="System.Drawing.Point, System.Drawing">
     <value>169, 265</value>
+  </data>
+  <data name="ButtonMultiply.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="ButtonMultiply.Text" xml:space="preserve">
     <value>×</value>
   </data>
   <data name="ButtonDivide.Location" type="System.Drawing.Point, System.Drawing">
     <value>169, 311</value>
+  </data>
+  <data name="ButtonDivide.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="ButtonDivide.Text" xml:space="preserve">
     <value>÷</value>
@@ -161,35 +177,68 @@
   <data name="ButtonClearAll.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 51</value>
   </data>
+  <data name="ButtonClearAll.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
   <data name="ButtonOne.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 219</value>
+  </data>
+  <data name="ButtonOne.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="ButtonTwo.Location" type="System.Drawing.Point, System.Drawing">
     <value>77, 219</value>
   </data>
+  <data name="ButtonTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="ButtonThree.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 219</value>
+  </data>
+  <data name="ButtonThree.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="ButtonFour.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 265</value>
   </data>
+  <data name="ButtonFour.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="ButtonFive.Location" type="System.Drawing.Point, System.Drawing">
     <value>77, 265</value>
+  </data>
+  <data name="ButtonFive.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="ButtonSix.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 265</value>
   </data>
+  <data name="ButtonSix.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="ButtonSeven.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 311</value>
+  </data>
+  <data name="ButtonSeven.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="ButtonEight.Location" type="System.Drawing.Point, System.Drawing">
     <value>77, 311</value>
   </data>
+  <data name="ButtonEight.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="ButtonNine.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 311</value>
   </data>
+  <data name="ButtonNine.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
   <data name="ButtonNull.Location" type="System.Drawing.Point, System.Drawing">
     <value>77, 357</value>
+  </data>
+  <data name="ButtonNull.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="ButtonLeftParenthesis.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 173</value>
@@ -205,6 +254,9 @@
   </data>
   <data name="ButtonEquals.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 40</value>
+  </data>
+  <data name="ButtonEquals.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="ButtonCos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -263,6 +315,9 @@
   <data name="ButtonLn.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 40</value>
   </data>
+  <data name="ButtonLn.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
   <data name="ButtonLn.Text" xml:space="preserve">
     <value>ln</value>
   </data>
@@ -277,6 +332,9 @@
   </data>
   <data name="ButtonExponentiation.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 40</value>
+  </data>
+  <data name="ButtonExponentiation.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
   </data>
   <data name="ButtonExponentiation.Text" xml:space="preserve">
     <value>xʸ</value>
@@ -293,6 +351,9 @@
   <data name="ButtonSqrt.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 40</value>
   </data>
+  <data name="ButtonSqrt.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
   <data name="ButtonSqrt.Text" xml:space="preserve">
     <value>√x</value>
   </data>
@@ -308,6 +369,9 @@
   <data name="ButtonLog.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 40</value>
   </data>
+  <data name="ButtonLog.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
   <data name="ButtonLog.Text" xml:space="preserve">
     <value>log</value>
   </data>
@@ -322,6 +386,9 @@
   </data>
   <data name="ButtonE.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 40</value>
+  </data>
+  <data name="ButtonE.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
   </data>
   <data name="ButtonE.Text" xml:space="preserve">
     <value>e</value>
