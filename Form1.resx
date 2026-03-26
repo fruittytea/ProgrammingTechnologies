@@ -118,445 +118,39 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ButtonDivide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;ButtonEight.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;ButtonRightParenthesis.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonNull.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 280</value>
-  </data>
-  <data name="ButtonNine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="ButtonExponentiation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 219</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ButtonFive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ButtonThree.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;ButtonTg.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonPlus.Name" xml:space="preserve">
-    <value>ButtonPlus</value>
-  </data>
-  <data name="&gt;&gt;ButtonPercent.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="ButtonClearAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 51</value>
   </data>
   <data name="ButtonEquals.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 280</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ButtonClearAll.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="ButtonRightParenthesis.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;ButtonTg.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonE.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonPi.Name" xml:space="preserve">
-    <value>ButtonPi</value>
-  </data>
-  <data name="ButtonOne.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonThree.Name" xml:space="preserve">
-    <value>ButtonThree</value>
-  </data>
-  <data name="ButtonRightParenthesis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;ButtonE.Name" xml:space="preserve">
-    <value>ButtonE</value>
-  </data>
-  <data name="OutputWindow.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ButtonMinus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonCos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 173</value>
-  </data>
-  <data name="ButtonLog.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;ButtonEight.Name" xml:space="preserve">
-    <value>ButtonEight</value>
-  </data>
-  <data name="ButtonEquals.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;ButtonE.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ButtonPoint.Name" xml:space="preserve">
-    <value>ButtonPoint</value>
-  </data>
-  <data name="ButtonPercent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="ButtonDivide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 234</value>
-  </data>
-  <data name="&gt;&gt;ButtonOne.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="ButtonFour.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonSqrt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonLog.Name" xml:space="preserve">
-    <value>ButtonLog</value>
-  </data>
-  <data name="&gt;&gt;ButtonCos.Name" xml:space="preserve">
-    <value>ButtonCos</value>
-  </data>
-  <data name="&gt;&gt;ButtonLeftParenthesis.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>341, 265</value>
-  </data>
-  <data name="&gt;&gt;ButtonExponentiation.Name" xml:space="preserve">
-    <value>ButtonExponentiation</value>
-  </data>
-  <data name="OutputWindow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 31</value>
-  </data>
-  <data name="&gt;&gt;ButtonRemove.Name" xml:space="preserve">
-    <value>ButtonRemove</value>
-  </data>
-  <data name="ButtonSix.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonExponentiation.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonNine.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonDivide.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonOne.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonNull.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonMultiply.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonSeven.Text" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;ButtonMinus.Name" xml:space="preserve">
-    <value>ButtonMinus</value>
-  </data>
-  <data name="ButtonDivide.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="ButtonLeftParenthesis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 96</value>
-  </data>
-  <data name="ButtonLeftParenthesis.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonNine.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonTg.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="ButtonFive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 188</value>
-  </data>
-  <data name="ButtonTg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>401, 173</value>
-  </data>
-  <data name="ButtonClearAll.Text" xml:space="preserve">
-    <value>AC</value>
-  </data>
-  <data name="ButtonMultiply.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ButtonFour.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;ButtonLeftParenthesis.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="ButtonSin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>341, 173</value>
-  </data>
-  <data name="ButtonEight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;ButtonPoint.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="ButtonEquals.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="ButtonRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;ButtonTwo.Name" xml:space="preserve">
-    <value>ButtonTwo</value>
-  </data>
-  <data name="ButtonPercent.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;ButtonThree.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="ButtonRightParenthesis.Text" xml:space="preserve">
-    <value>)</value>
-  </data>
-  <data name="ButtonFive.Text" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;ButtonTwo.Parent" xml:space="preserve">
+  <data name="&gt;&gt;ButtonEight.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;ButtonLn.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;ButtonFour.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonLn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonTwo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;ButtonThree.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonThree.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonSix.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;ButtonLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonTwo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 142</value>
-  </data>
-  <data name="&gt;&gt;ButtonPlus.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="ButtonClearAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>696, 31</value>
-  </data>
-  <data name="ButtonRemove.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14pt</value>
-  </data>
-  <data name="&gt;&gt;ButtonEquals.Name" xml:space="preserve">
-    <value>ButtonEquals</value>
-  </data>
-  <data name="ButtonPi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>401, 265</value>
-  </data>
-  <data name="ButtonNine.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonNine.Name" xml:space="preserve">
-    <value>ButtonNine</value>
-  </data>
-  <data name="ButtonMultiply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;ButtonTwo.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;ButtonSix.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonFive.Name" xml:space="preserve">
-    <value>ButtonFive</value>
-  </data>
-  <data name="&gt;&gt;ButtonSeven.Name" xml:space="preserve">
-    <value>ButtonSeven</value>
-  </data>
-  <data name="&gt;&gt;ButtonSqrt.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="ButtonPoint.Text" xml:space="preserve">
-    <value>,</value>
-  </data>
-  <data name="&gt;&gt;ButtonSix.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonPlus.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ButtonFive.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="ButtonPoint.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 280</value>
-  </data>
-  <data name="OutputWindow.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopCenter</value>
-  </data>
-  <data name="ButtonFour.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="ButtonRemove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>639, 31</value>
-  </data>
-  <data name="ButtonSqrt.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;ButtonLog.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="ButtonOne.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 142</value>
-  </data>
-  <data name="ButtonNine.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 234</value>
-  </data>
-  <data name="ButtonNull.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonFive.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonMultiply.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
-  <data name="ButtonEight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 234</value>
-  </data>
-  <data name="ButtonSeven.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 234</value>
-  </data>
-  <data name="ButtonMinus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 142</value>
-  </data>
-  <data name="ButtonMinus.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="ButtonEight.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="ButtonTwo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="ButtonPlus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 96</value>
-  </data>
-  <data name="ButtonE.Location" type="System.Drawing.Point, System.Drawing">
-    <value>401, 219</value>
-  </data>
-  <data name="&gt;&gt;ButtonSqrt.Name" xml:space="preserve">
-    <value>ButtonSqrt</value>
-  </data>
-  <data name="ButtonFive.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="ButtonOne.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;ButtonDivide.Name" xml:space="preserve">
-    <value>ButtonDivide</value>
-  </data>
-  <data name="ButtonEight.Text" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;ButtonSin.Name" xml:space="preserve">
-    <value>ButtonSin</value>
-  </data>
-  <data name="ButtonRightParenthesis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 96</value>
-  </data>
-  <data name="OutputWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>605, 51</value>
-  </data>
-  <data name="ButtonEight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ButtonLeftParenthesis.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Calculator</value>
-  </data>
-  <data name="ButtonMinus.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="&gt;&gt;ButtonFour.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonClearAll.Name" xml:space="preserve">
-    <value>ButtonClearAll</value>
-  </data>
-  <data name="ButtonTwo.Text" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="ButtonPoint.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="ButtonFour.Text" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="ButtonSin.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;ButtonPercent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonFive.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="ButtonFour.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 188</value>
-  </data>
-  <data name="ButtonMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ButtonRemove.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonRightParenthesis.ZOrder" xml:space="preserve">
-    <value>12</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ButtonRemove.ZOrder" xml:space="preserve">
-    <value>24</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtonE.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
   </data>
-  <data name="&gt;&gt;ButtonMultiply.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="ButtonPlus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
   </data>
-  <data name="ButtonThree.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 142</value>
+  <data name="ButtonSix.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="&gt;&gt;ButtonPi.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;ButtonLn.Name" xml:space="preserve">
+    <value>ButtonLn</value>
   </data>
-  <data name="&gt;&gt;ButtonLeftParenthesis.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="ButtonPoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;ButtonEquals.Parent" xml:space="preserve">
     <value>$this</value>
@@ -564,269 +158,528 @@
   <data name="ButtonPercent.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 96</value>
   </data>
-  <data name="&gt;&gt;ButtonLn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ButtonFour.Text" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="OutputWindow.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt</value>
+  <data name="ButtonEquals.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
   </data>
-  <data name="ButtonPoint.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;ButtonThree.Name" xml:space="preserve">
+    <value>ButtonThree</value>
+  </data>
+  <data name="ButtonClearAll.Font" type="System.Drawing.Font, System.Drawing">
     <value>Malgun Gothic, 14pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;ButtonPlus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ButtonE.Name" xml:space="preserve">
+    <value>ButtonE</value>
   </data>
-  <data name="&gt;&gt;ButtonEquals.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="ButtonOne.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ButtonFour.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;ButtonTg.Name" xml:space="preserve">
-    <value>ButtonTg</value>
-  </data>
-  <data name="&gt;&gt;ButtonSin.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="ButtonLn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 265</value>
-  </data>
-  <data name="&gt;&gt;ButtonMinus.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;ButtonPlus.ZOrder" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="ButtonRightParenthesis.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="ButtonPoint.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="ButtonPercent.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="ButtonClearAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 51</value>
-  </data>
-  <data name="ButtonLeftParenthesis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;ButtonClearAll.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="ButtonTwo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="ButtonPoint.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ButtonSeven.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonClearAll.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonRemove.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="&gt;&gt;ButtonRightParenthesis.Name" xml:space="preserve">
-    <value>ButtonRightParenthesis</value>
-  </data>
-  <data name="ButtonPi.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="ButtonTwo.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="ButtonFour.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;ButtonCos.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonMinus.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;ButtonFour.Name" xml:space="preserve">
-    <value>ButtonFour</value>
-  </data>
-  <data name="&gt;&gt;ButtonEight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonExponentiation.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="ButtonNull.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;ButtonMultiply.Name" xml:space="preserve">
-    <value>ButtonMultiply</value>
-  </data>
-  <data name="ButtonThree.Text" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="ButtonSeven.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="ButtonSqrt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>341, 219</value>
-  </data>
-  <data name="ButtonMultiply.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14pt, style=Bold</value>
-  </data>
-  <data name="ButtonThree.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;ButtonLeftParenthesis.Name" xml:space="preserve">
-    <value>ButtonLeftParenthesis</value>
-  </data>
-  <data name="&gt;&gt;ButtonTg.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="ButtonTwo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonRemove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;OutputWindow.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="ButtonLeftParenthesis.Text" xml:space="preserve">
-    <value>(</value>
-  </data>
-  <data name="&gt;&gt;ButtonSqrt.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonDivide.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonPi.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ButtonNine.Text" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="ButtonSeven.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;ButtonCos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonPi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonPoint.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonClearAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonPercent.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="ButtonNull.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ButtonPlus.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="ButtonCos.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;ButtonPercent.Name" xml:space="preserve">
-    <value>ButtonPercent</value>
-  </data>
-  <data name="ButtonSix.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;ButtonOne.Name" xml:space="preserve">
-    <value>ButtonOne</value>
-  </data>
-  <data name="&gt;&gt;ButtonThree.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="ButtonSix.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;ButtonSeven.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="ButtonRemove.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="ButtonLeftParenthesis.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;ButtonNull.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="OutputWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 51</value>
   </data>
   <data name="&gt;&gt;ButtonCos.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="ButtonNine.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;ButtonPoint.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonSix.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;ButtonFive.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="ButtonEquals.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtonMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonLeftParenthesis.Name" xml:space="preserve">
+    <value>ButtonLeftParenthesis</value>
+  </data>
+  <data name="ButtonMinus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 142</value>
+  </data>
+  <data name="&gt;&gt;ButtonCos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonNull.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 51</value>
+  </data>
+  <data name="ButtonPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="ButtonSeven.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonRemove.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14pt</value>
+  </data>
+  <data name="ButtonTg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 173</value>
+  </data>
+  <data name="ButtonOne.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonMultiply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 188</value>
+  </data>
+  <data name="&gt;&gt;ButtonOne.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="ButtonOne.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ButtonFive.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ButtonPi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ButtonExponentiation.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;OutputWindow.Parent" xml:space="preserve">
+  <data name="ButtonTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 142</value>
+  </data>
+  <data name="ButtonFive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonSeven.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="ButtonDivide.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ButtonNine.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 9pt</value>
+  <data name="ButtonEight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonNine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonPoint.Text" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="&gt;&gt;ButtonTwo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonSqrt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 219</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;ButtonRightParenthesis.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonExponentiation.Name" xml:space="preserve">
+    <value>ButtonExponentiation</value>
+  </data>
+  <data name="&gt;&gt;ButtonE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonFive.Name" xml:space="preserve">
+    <value>ButtonFive</value>
+  </data>
+  <data name="ButtonRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ButtonNine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonMultiply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonMinus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;ButtonLn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ButtonPercent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonTwo.Name" xml:space="preserve">
+    <value>ButtonTwo</value>
+  </data>
+  <data name="ButtonEight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonTg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonPercent.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ButtonEquals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="ButtonDivide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="ButtonMultiply.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonPi.Name" xml:space="preserve">
+    <value>ButtonPi</value>
+  </data>
+  <data name="&gt;&gt;ButtonOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonThree.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ButtonMultiply.ZOrder" xml:space="preserve">
+    <value>26</value>
   </data>
   <data name="&gt;&gt;ButtonSix.Name" xml:space="preserve">
     <value>ButtonSix</value>
   </data>
-  <data name="ButtonPlus.Text" xml:space="preserve">
-    <value>+</value>
+  <data name="&gt;&gt;ButtonEquals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ButtonDivide.ZOrder" xml:space="preserve">
-    <value>26</value>
+  <data name="&gt;&gt;ButtonOne.Name" xml:space="preserve">
+    <value>ButtonOne</value>
   </data>
-  <data name="ButtonLn.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;ButtonPlus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonPercent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="ButtonPlus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="ButtonThree.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="ButtonNine.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="ButtonOne.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;ButtonMultiply.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="ButtonClearAll.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="ButtonSix.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="&gt;&gt;ButtonRightParenthesis.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ButtonTwo.Type" xml:space="preserve">
+  <data name="ButtonFive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 188</value>
+  </data>
+  <data name="ButtonMultiply.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ButtonPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ButtonClearAll.Text" xml:space="preserve">
+    <value>AC</value>
+  </data>
+  <data name="&gt;&gt;ButtonMultiply.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonPoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonNine.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonPi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ButtonPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonDivide.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonFive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonLn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonClearAll.Name" xml:space="preserve">
+    <value>ButtonClearAll</value>
+  </data>
+  <data name="ButtonPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ButtonEight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;ButtonSin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ButtonRemove.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonEquals.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonExponentiation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonMinus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonSqrt.Name" xml:space="preserve">
+    <value>ButtonSqrt</value>
+  </data>
+  <data name="ButtonFive.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ButtonFour.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonRightParenthesis.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="ButtonMultiply.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="ButtonLeftParenthesis.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ButtonSix.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonSqrt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonRemove.Name" xml:space="preserve">
+    <value>ButtonRemove</value>
+  </data>
+  <data name="ButtonOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 142</value>
+  </data>
+  <data name="&gt;&gt;ButtonPercent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonSeven.Name" xml:space="preserve">
+    <value>ButtonSeven</value>
+  </data>
+  <data name="&gt;&gt;ButtonThree.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonSix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="ButtonLeftParenthesis.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonMultiply.Name" xml:space="preserve">
+    <value>ButtonMultiply</value>
+  </data>
+  <data name="ButtonTg.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;ButtonSin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonNull.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 280</value>
+  </data>
+  <data name="ButtonTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ButtonNull.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonClearAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonDivide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 234</value>
+  </data>
+  <data name="ButtonPercent.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;ButtonSeven.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonFive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonLeftParenthesis.Text" xml:space="preserve">
+    <value>(</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="ButtonPi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 265</value>
+  </data>
+  <data name="&gt;&gt;ButtonSqrt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinus.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="ButtonMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ButtonEight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputWindow.Name" xml:space="preserve">
+    <value>OutputWindow</value>
+  </data>
+  <data name="&gt;&gt;ButtonSix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OutputWindow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt</value>
+  </data>
+  <data name="ButtonTwo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonLeftParenthesis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 96</value>
+  </data>
+  <data name="&gt;&gt;ButtonRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonOne.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonDivide.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="ButtonExponentiation.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;ButtonPercent.Name" xml:space="preserve">
+    <value>ButtonPercent</value>
+  </data>
+  <data name="ButtonLog.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="ButtonEight.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinus.Name" xml:space="preserve">
+    <value>ButtonMinus</value>
+  </data>
+  <data name="&gt;&gt;ButtonOne.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonDivide.Name" xml:space="preserve">
+    <value>ButtonDivide</value>
+  </data>
+  <data name="&gt;&gt;OutputWindow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonNull.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ButtonNine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 234</value>
+  </data>
+  <data name="&gt;&gt;ButtonRemove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 9pt</value>
+  </data>
+  <data name="ButtonLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 265</value>
+  </data>
+  <data name="&gt;&gt;OutputWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonClearAll.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonLog.Name" xml:space="preserve">
+    <value>ButtonLog</value>
+  </data>
+  <data name="ButtonPi.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="ButtonPercent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonFive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;ButtonEquals.Name" xml:space="preserve">
+    <value>ButtonEquals</value>
+  </data>
+  <data name="ButtonSin.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;ButtonExponentiation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonRightParenthesis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="ButtonSix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonNull.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonOne.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonClearAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonSeven.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonSeven.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="OutputWindow.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="ButtonExponentiation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 219</value>
+  </data>
+  <data name="ButtonTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;ButtonFive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonCos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonMinus.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;ButtonRightParenthesis.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ButtonSeven.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;ButtonEight.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ButtonEight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 234</value>
+  </data>
+  <data name="ButtonThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 142</value>
+  </data>
+  <data name="ButtonNull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;ButtonThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonNine.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1803,137 +1656,284 @@
   <data name="&gt;&gt;ButtonNull.Name" xml:space="preserve">
     <value>ButtonNull</value>
   </data>
-  <data name="ButtonEquals.Text" xml:space="preserve">
-    <value>=</value>
+  <data name="&gt;&gt;ButtonFour.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
-  <data name="&gt;&gt;ButtonLn.Name" xml:space="preserve">
-    <value>ButtonLn</value>
+  <data name="ButtonPlus.Text" xml:space="preserve">
+    <value>+</value>
   </data>
-  <data name="ButtonEight.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="ButtonRightParenthesis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 96</value>
   </data>
   <data name="ButtonNull.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="ButtonThree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="&gt;&gt;ButtonFour.Name" xml:space="preserve">
+    <value>ButtonFour</value>
+  </data>
+  <data name="&gt;&gt;ButtonRemove.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;ButtonSeven.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonNine.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="&gt;&gt;ButtonOne.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ButtonNine.Name" xml:space="preserve">
+    <value>ButtonNine</value>
   </data>
-  <data name="&gt;&gt;ButtonDivide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonRightParenthesis.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonSin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonMultiply.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;OutputWindow.Name" xml:space="preserve">
-    <value>OutputWindow</value>
-  </data>
-  <data name="&gt;&gt;ButtonSeven.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonNull.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="ButtonPoint.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 40</value>
   </data>
-  <data name="&gt;&gt;ButtonEquals.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ButtonNull.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
-  <data name="ButtonSeven.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14.25pt, style=Bold</value>
-  </data>
-  <data name="ButtonRemove.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 51</value>
-  </data>
-  <data name="&gt;&gt;ButtonLog.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ButtonEquals.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ButtonDivide.Text" xml:space="preserve">
-    <value>/</value>
-  </data>
-  <data name="&gt;&gt;ButtonEight.Parent" xml:space="preserve">
+  <data name="&gt;&gt;ButtonLn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Калькулятор</value>
   </data>
-  <data name="ButtonPlus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
+  <data name="ButtonCos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 173</value>
   </data>
-  <data name="&gt;&gt;ButtonNull.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;ButtonSeven.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonE.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="ButtonSix.Text" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="ButtonFive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;OutputWindow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonExponentiation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonDivide.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;ButtonNine.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="ButtonMinus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="ButtonClearAll.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Malgun Gothic, 14pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;ButtonRemove.Parent" xml:space="preserve">
+  <data name="&gt;&gt;ButtonE.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="ButtonPlus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;ButtonE.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ButtonOne.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="ButtonLeftParenthesis.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 40</value>
   </data>
-  <data name="ButtonMultiply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 188</value>
+  <data name="&gt;&gt;ButtonDivide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonEight.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="ButtonLn.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
   </data>
   <data name="ButtonSix.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 188</value>
   </data>
-  <data name="&gt;&gt;ButtonFive.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="ButtonPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
   </data>
-  <data name="&gt;&gt;ButtonMinus.Type" xml:space="preserve">
+  <data name="&gt;&gt;ButtonSin.Name" xml:space="preserve">
+    <value>ButtonSin</value>
+  </data>
+  <data name="ButtonLeftParenthesis.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonNull.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ButtonSin.Parent" xml:space="preserve">
+  <data name="ButtonRightParenthesis.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonFour.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonSeven.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;ButtonTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonThree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonRightParenthesis.Name" xml:space="preserve">
+    <value>ButtonRightParenthesis</value>
+  </data>
+  <data name="ButtonMultiply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="ButtonRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ButtonEquals.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;OutputWindow.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="ButtonDivide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;ButtonTwo.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;ButtonEquals.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ButtonCos.Name" xml:space="preserve">
+    <value>ButtonCos</value>
+  </data>
+  <data name="&gt;&gt;ButtonPi.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;ButtonPercent.Parent" xml:space="preserve">
+  <data name="ButtonE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 219</value>
+  </data>
+  <data name="ButtonFour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="ButtonEquals.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;ButtonTg.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="OutputWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ButtonMultiply.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Malgun Gothic, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonDivide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonRightParenthesis.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ButtonTg.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+  <data name="ButtonFour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 188</value>
+  </data>
+  <data name="ButtonFour.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ButtonEight.Name" xml:space="preserve">
+    <value>ButtonEight</value>
+  </data>
+  <data name="OutputWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 31</value>
+  </data>
+  <data name="ButtonClearAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 31</value>
+  </data>
+  <data name="ButtonRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>639, 31</value>
+  </data>
+  <data name="ButtonCos.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;ButtonE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonClearAll.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ButtonSeven.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 234</value>
+  </data>
+  <data name="ButtonSqrt.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="ButtonDivide.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="ButtonRightParenthesis.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonSin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 173</value>
+  </data>
+  <data name="ButtonThree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlus.Name" xml:space="preserve">
+    <value>ButtonPlus</value>
+  </data>
+  <data name="ButtonLn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 265</value>
+  </data>
+  <data name="&gt;&gt;ButtonFour.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;ButtonSqrt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ButtonTg.Name" xml:space="preserve">
+    <value>ButtonTg</value>
+  </data>
+  <data name="ButtonThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;ButtonSix.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="ButtonTwo.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ButtonLeftParenthesis.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ButtonPoint.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonPercent.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ButtonPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 96</value>
+  </data>
+  <data name="&gt;&gt;ButtonLog.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonNine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;ButtonFour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonLeftParenthesis.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonLog.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonPoint.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonSix.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ButtonLeftParenthesis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonPoint.Name" xml:space="preserve">
+    <value>ButtonPoint</value>
+  </data>
+  <data name="ButtonNine.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ButtonPoint.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ButtonThree.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ButtonPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 280</value>
+  </data>
+  <data name="&gt;&gt;ButtonClearAll.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;ButtonSin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonRemove.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>ru-RU</value>

@@ -198,13 +198,13 @@
     <value>77, 173</value>
   </data>
   <data name="ButtonPoint.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 357</value>
-  </data>
-  <data name="ButtonPercent.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 173</value>
   </data>
   <data name="ButtonEquals.Location" type="System.Drawing.Point, System.Drawing">
-    <value>169, 357</value>
+    <value>281, 357</value>
+  </data>
+  <data name="ButtonEquals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 40</value>
   </data>
   <data name="ButtonCos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>

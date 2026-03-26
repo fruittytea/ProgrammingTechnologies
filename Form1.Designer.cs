@@ -49,7 +49,6 @@
             ButtonLeftParenthesis = new Button();
             ButtonRightParenthesis = new Button();
             ButtonPoint = new Button();
-            ButtonPercent = new Button();
             ButtonEquals = new Button();
             ButtonCos = new Button();
             ButtonSin = new Button();
@@ -243,15 +242,6 @@
             ButtonPoint.UseVisualStyleBackColor = true;
             ButtonPoint.Click += ButtonPoint_Click;
             // 
-            // ButtonPercent
-            // 
-            resources.ApplyResources(ButtonPercent, "ButtonPercent");
-            ButtonPercent.Cursor = Cursors.Hand;
-            ButtonPercent.ForeColor = Color.FromArgb(30, 30, 143);
-            ButtonPercent.Name = "ButtonPercent";
-            ButtonPercent.UseVisualStyleBackColor = true;
-            ButtonPercent.Click += ButtonPercent_Click;
-            // 
             // ButtonEquals
             // 
             resources.ApplyResources(ButtonEquals, "ButtonEquals");
@@ -259,6 +249,7 @@
             ButtonEquals.ForeColor = Color.FromArgb(30, 30, 143);
             ButtonEquals.Name = "ButtonEquals";
             ButtonEquals.UseVisualStyleBackColor = true;
+            ButtonEquals.Click += ButtonEquals_Click;
             // 
             // ButtonCos
             // 
@@ -355,7 +346,6 @@
             Controls.Add(ButtonSin);
             Controls.Add(ButtonCos);
             Controls.Add(ButtonEquals);
-            Controls.Add(ButtonPercent);
             Controls.Add(ButtonPoint);
             Controls.Add(ButtonRightParenthesis);
             Controls.Add(ButtonLeftParenthesis);
@@ -405,7 +395,6 @@
         private Button ButtonLeftParenthesis;
         private Button ButtonRightParenthesis;
         private Button ButtonPoint;
-        private Button ButtonPercent;
         private Button ButtonEquals;
         private Button ButtonCos;
         private Button ButtonSin;
