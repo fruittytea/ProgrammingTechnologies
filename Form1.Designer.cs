@@ -71,7 +71,7 @@
             // OpenFileButton
             // 
             OpenFileButton.Name = "OpenFileButton";
-            OpenFileButton.Size = new Size(174, 24);
+            OpenFileButton.Size = new Size(180, 24);
             OpenFileButton.Text = "Открыть";
             OpenFileButton.Click += OpenFileButton_Click;
             // 
@@ -79,25 +79,27 @@
             // 
             SaveButton.DropDownItems.AddRange(new ToolStripItem[] { SaveFileButton, SaveAsButton });
             SaveButton.Name = "SaveButton";
-            SaveButton.Size = new Size(174, 24);
+            SaveButton.Size = new Size(180, 24);
             SaveButton.Text = "Сохранить...";
             // 
             // SaveFileButton
             // 
             SaveFileButton.Name = "SaveFileButton";
-            SaveFileButton.Size = new Size(178, 24);
+            SaveFileButton.Size = new Size(180, 24);
             SaveFileButton.Text = "Сохранить";
+            SaveFileButton.Click += SaveFileButton_Click;
             // 
             // SaveAsButton
             // 
             SaveAsButton.Name = "SaveAsButton";
-            SaveAsButton.Size = new Size(178, 24);
+            SaveAsButton.Size = new Size(180, 24);
             SaveAsButton.Text = "Сохранить как";
+            SaveAsButton.Click += SaveAsButton_Click;
             // 
             // ExidFileButton
             // 
             ExidFileButton.Name = "ExidFileButton";
-            ExidFileButton.Size = new Size(174, 24);
+            ExidFileButton.Size = new Size(180, 24);
             ExidFileButton.Text = "Закрыть файл";
             ExidFileButton.Click += ExidFileButton_Click;
             // 
