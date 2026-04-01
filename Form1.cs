@@ -1,5 +1,6 @@
 using System;
-using System.Linq.Expressions;
+using System.Data;
+using System.Globalization;
 using System.Text.RegularExpressions;
 
 namespace Task3_Calculator
@@ -182,7 +183,7 @@ namespace Task3_Calculator
         private void ButtonLog_Click(object sender, EventArgs e)
         {
             OutputWindow.Text += "log(";
-            MathematicalExample += "log10(";
+            MathematicalExample += "log(";
         }
 
         private void ButtonPi_Click(object sender, EventArgs e)
@@ -203,7 +204,7 @@ namespace Task3_Calculator
             }
             catch (Exception ex)
             {
-                OutputWindow.Text = "Ошибка!" + ex;
+                OutputWindow.Text = "Ошибка при вычислении. Функция не поддерживается или возникла ошибка при вводе";
                 MathematicalExample = "";
             }
         }
@@ -212,10 +213,68 @@ namespace Task3_Calculator
         {
             try
             {
-                //пока без инженерного
-                System.Data.DataTable dt = new System.Data.DataTable();
+                while (Regex.IsMatch(expression, @"\^"))
+                {
+                    string oldExpr = expression;
+                    expression = Regex.Replace(expression,
+                        @"(\-?[\d\.]+|\([^()]+\))\s*\^\s*(\-?[\d\.]+|\([^()]+\))",
+                        match => {
+                            string baseStr = match.Groups[1].Value;
+                            string expStr = match.Groups[2].Value;
+
+                            if (baseStr.StartsWith("("))
+                            {
+                                DataTable dt = new DataTable();
+                                baseStr = dt.Compute(baseStr, null).ToString();
+                            }
+                            if (expStr.StartsWith("("))
+                            {
+                                DataTable dt = new DataTable();
+                                expStr = dt.Compute(expStr, null).ToString();
+                            }
+
+                            double baseNum = double.Parse(baseStr, CultureInfo.InvariantCulture);
+                            double expNum = double.Parse(expStr, CultureInfo.InvariantCulture);
+                            return Math.Pow(baseNum, expNum).ToString(CultureInfo.InvariantCulture);
+                        },
+                        RegexOptions.None,
+                        TimeSpan.FromMilliseconds(100));
+
+                    if (expression == oldExpr) break;
+                }
+
+                expression = expression.Replace("pi", Math.PI.ToString(CultureInfo.InvariantCulture));
+                expression = expression.Replace("e", Math.E.ToString(CultureInfo.InvariantCulture));
+                
+                string pattern = @"(cos|sin|tan|sqrt|ln|log)\s*\(([^()]+)\)";
+                int maxIterations = 10;
+                for (int i = 0; i < maxIterations; i++)
+                {
+                    if (!Regex.IsMatch(expression, pattern)) break;
+
+                    expression = Regex.Replace(expression, pattern, match =>
+                    {
+                        string func = match.Groups[1].Value;
+                        double arg = double.Parse(match.Groups[2].Value, CultureInfo.InvariantCulture);
+
+                        return func switch
+                        {
+                            "cos" => Math.Cos(arg).ToString(CultureInfo.InvariantCulture),
+                            "sin" => Math.Sin(arg).ToString(CultureInfo.InvariantCulture),
+                            "tan" => Math.Tan(arg).ToString(CultureInfo.InvariantCulture),
+                            "sqrt" => Math.Sqrt(arg).ToString(CultureInfo.InvariantCulture),
+                            "ln" => Math.Log(arg).ToString(CultureInfo.InvariantCulture),
+                            "log" => Math.Log10(arg).ToString(CultureInfo.InvariantCulture),
+                            _ => match.Value
+                        };
+                    });
+                }
+
+                DataTable dt = new DataTable();
                 var result = dt.Compute(expression, null);
-                return result.ToString();
+
+                double num = Convert.ToDouble(result, CultureInfo.InvariantCulture);
+                return num.ToString("G15", CultureInfo.InvariantCulture);
             }
             catch
             {
