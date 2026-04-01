@@ -7,6 +7,7 @@ namespace Task4_TextEditor
         public TextEditor()
         {
             InitializeComponent();
+            SavingChanges = true;
         }
 
         public bool SavingChanges;
@@ -14,7 +15,7 @@ namespace Task4_TextEditor
 
         private void OpenFileButton_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(TextArea.Text))
+            if (!string.IsNullOrEmpty(TextArea.Text) && SavingChanges == false)
             {
                 DialogResult result = MessageBox.Show("Вы уверены, что хотите открыть новый файл? Изменения в текущем файле не сохранятся", "Открытие файла", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
                 if (result == DialogResult.No || result == DialogResult.Cancel)
@@ -35,13 +36,14 @@ namespace Task4_TextEditor
                     string FileText = System.IO.File.ReadAllText(FilePath);
                     this.Text = FilePath;
                     TextArea.Text = FileText;
+                    SavingChanges = true;
                 }
             }
         }
 
         private void ExidFileButton_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(TextArea.Text))
+            if (!string.IsNullOrEmpty(TextArea.Text) && SavingChanges == false)
             {
                 DialogResult result = MessageBox.Show("Вы уверены, что хотите закрыть файл? Изменения в текущем файле не сохранятся", "Открытие файла", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
                 if (result == DialogResult.No || result == DialogResult.Cancel)
@@ -51,6 +53,19 @@ namespace Task4_TextEditor
             }
             this.Text = "Текстовый редактор";
             TextArea.Text = "";
+        }
+
+        private void TextArea_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(this.Text == "Текстовый редактор")
+            {
+                this.Text = "Новый документ";
+            }
+            if(!this.Text.EndsWith("*"))
+            {
+                this.Text += " *";
+                SavingChanges = false;
+            }
         }
     }
 }

@@ -37,11 +37,11 @@
             SaveButton = new ToolStripMenuItem();
             SaveFileButton = new ToolStripMenuItem();
             SaveAsButton = new ToolStripMenuItem();
+            ExidFileButton = new ToolStripMenuItem();
             AppearanceButton = new ToolStripMenuItem();
             FontDialog = new FontDialog();
             ColorDialog = new ColorDialog();
             TextArea = new RichTextBox();
-            ExidFileButton = new ToolStripMenuItem();
             ActionsMenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -71,7 +71,7 @@
             // OpenFileButton
             // 
             OpenFileButton.Name = "OpenFileButton";
-            OpenFileButton.Size = new Size(180, 24);
+            OpenFileButton.Size = new Size(174, 24);
             OpenFileButton.Text = "Открыть";
             OpenFileButton.Click += OpenFileButton_Click;
             // 
@@ -79,7 +79,7 @@
             // 
             SaveButton.DropDownItems.AddRange(new ToolStripItem[] { SaveFileButton, SaveAsButton });
             SaveButton.Name = "SaveButton";
-            SaveButton.Size = new Size(180, 24);
+            SaveButton.Size = new Size(174, 24);
             SaveButton.Text = "Сохранить...";
             // 
             // SaveFileButton
@@ -93,6 +93,13 @@
             SaveAsButton.Name = "SaveAsButton";
             SaveAsButton.Size = new Size(178, 24);
             SaveAsButton.Text = "Сохранить как";
+            // 
+            // ExidFileButton
+            // 
+            ExidFileButton.Name = "ExidFileButton";
+            ExidFileButton.Size = new Size(174, 24);
+            ExidFileButton.Text = "Закрыть файл";
+            ExidFileButton.Click += ExidFileButton_Click;
             // 
             // AppearanceButton
             // 
@@ -113,13 +120,7 @@
             TextArea.Size = new Size(984, 524);
             TextArea.TabIndex = 1;
             TextArea.Text = "";
-            // 
-            // ExidFileButton
-            // 
-            ExidFileButton.Name = "ExidFileButton";
-            ExidFileButton.Size = new Size(180, 24);
-            ExidFileButton.Text = "Закрыть файл";
-            ExidFileButton.Click += ExidFileButton_Click;
+            TextArea.KeyPress += TextArea_KeyPress;
             // 
             // TextEditor
             // 
