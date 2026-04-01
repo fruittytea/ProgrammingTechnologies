@@ -41,6 +41,7 @@
             FontDialog = new FontDialog();
             ColorDialog = new ColorDialog();
             TextArea = new RichTextBox();
+            ExidFileButton = new ToolStripMenuItem();
             ActionsMenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             // 
             // открытьToolStripMenuItem
             // 
-            открытьToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { OpenFileButton, SaveButton });
+            открытьToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { OpenFileButton, SaveButton, ExidFileButton });
             открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
             открытьToolStripMenuItem.Padding = new Padding(10, 3, 10, 3);
             открытьToolStripMenuItem.Size = new Size(69, 30);
@@ -113,6 +114,13 @@
             TextArea.TabIndex = 1;
             TextArea.Text = "";
             // 
+            // ExidFileButton
+            // 
+            ExidFileButton.Name = "ExidFileButton";
+            ExidFileButton.Size = new Size(180, 24);
+            ExidFileButton.Text = "Закрыть файл";
+            ExidFileButton.Click += ExidFileButton_Click;
+            // 
             // TextEditor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -145,5 +153,6 @@
         private FontDialog FontDialog;
         private ColorDialog ColorDialog;
         private RichTextBox TextArea;
+        private ToolStripMenuItem ExidFileButton;
     }
 }

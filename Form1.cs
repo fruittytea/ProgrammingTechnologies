@@ -9,6 +9,9 @@ namespace Task4_TextEditor
             InitializeComponent();
         }
 
+        public bool SavingChanges;
+        public string FilePath;
+
         private void OpenFileButton_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(TextArea.Text))
@@ -28,11 +31,26 @@ namespace Task4_TextEditor
 
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
-                    string FilePath = ofd.FileName;
+                    FilePath = ofd.FileName;
                     string FileText = System.IO.File.ReadAllText(FilePath);
+                    this.Text = FilePath;
                     TextArea.Text = FileText;
                 }
             }
+        }
+
+        private void ExidFileButton_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(TextArea.Text))
+            {
+                DialogResult result = MessageBox.Show("Вы уверены, что хотите закрыть файл? Изменения в текущем файле не сохранятся", "Открытие файла", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+                if (result == DialogResult.No || result == DialogResult.Cancel)
+                {
+                    return;
+                }
+            }
+            this.Text = "Текстовый редактор";
+            TextArea.Text = "";
         }
     }
 }
