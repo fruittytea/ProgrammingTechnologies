@@ -39,6 +39,9 @@
             SaveAsButton = new ToolStripMenuItem();
             ExidFileButton = new ToolStripMenuItem();
             AppearanceButton = new ToolStripMenuItem();
+            BackgroundColorButton = new ToolStripMenuItem();
+            TextColorButton = new ToolStripMenuItem();
+            FontButton = new ToolStripMenuItem();
             FontDialog = new FontDialog();
             ColorDialog = new ColorDialog();
             TextArea = new RichTextBox();
@@ -56,7 +59,8 @@
             ActionsMenu.Items.AddRange(new ToolStripItem[] { открытьToolStripMenuItem, AppearanceButton });
             ActionsMenu.Location = new Point(0, 0);
             ActionsMenu.Name = "ActionsMenu";
-            ActionsMenu.Size = new Size(984, 34);
+            ActionsMenu.Padding = new Padding(7, 3, 0, 3);
+            ActionsMenu.Size = new Size(1125, 36);
             ActionsMenu.TabIndex = 1;
             ActionsMenu.Text = "menuStrip1";
             // 
@@ -85,14 +89,14 @@
             // SaveFileButton
             // 
             SaveFileButton.Name = "SaveFileButton";
-            SaveFileButton.Size = new Size(180, 24);
+            SaveFileButton.Size = new Size(178, 24);
             SaveFileButton.Text = "Сохранить";
             SaveFileButton.Click += SaveFileButton_Click;
             // 
             // SaveAsButton
             // 
             SaveAsButton.Name = "SaveAsButton";
-            SaveAsButton.Size = new Size(180, 24);
+            SaveAsButton.Size = new Size(178, 24);
             SaveAsButton.Text = "Сохранить как";
             SaveAsButton.Click += SaveAsButton_Click;
             // 
@@ -105,10 +109,32 @@
             // 
             // AppearanceButton
             // 
+            AppearanceButton.DropDownItems.AddRange(new ToolStripItem[] { BackgroundColorButton, TextColorButton, FontButton });
             AppearanceButton.Name = "AppearanceButton";
             AppearanceButton.Padding = new Padding(10, 3, 10, 3);
             AppearanceButton.Size = new Size(59, 30);
             AppearanceButton.Text = "Вид";
+            // 
+            // BackgroundColorButton
+            // 
+            BackgroundColorButton.Name = "BackgroundColorButton";
+            BackgroundColorButton.Size = new Size(180, 24);
+            BackgroundColorButton.Text = "Цвет фона";
+            BackgroundColorButton.Click += BackgroundColorButton_Click;
+            // 
+            // TextColorButton
+            // 
+            TextColorButton.Name = "TextColorButton";
+            TextColorButton.Size = new Size(180, 24);
+            TextColorButton.Text = "Цвет текста";
+            TextColorButton.Click += TextColorButton_Click;
+            // 
+            // FontButton
+            // 
+            FontButton.Name = "FontButton";
+            FontButton.Size = new Size(180, 24);
+            FontButton.Text = "Шрифт";
+            FontButton.Click += FontButton_Click;
             // 
             // TextArea
             // 
@@ -116,23 +142,25 @@
             TextArea.BorderStyle = BorderStyle.None;
             TextArea.Cursor = Cursors.IBeam;
             TextArea.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            TextArea.Location = new Point(0, 37);
-            TextArea.Margin = new Padding(20, 100, 20, 100);
+            TextArea.Location = new Point(0, 49);
+            TextArea.Margin = new Padding(23, 133, 23, 133);
             TextArea.Name = "TextArea";
-            TextArea.Size = new Size(984, 524);
+            TextArea.Size = new Size(1125, 699);
             TextArea.TabIndex = 1;
             TextArea.Text = "";
             TextArea.KeyPress += TextArea_KeyPress;
             // 
             // TextEditor
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(984, 561);
+            ClientSize = new Size(1125, 748);
             Controls.Add(TextArea);
             Controls.Add(ActionsMenu);
+            Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = ActionsMenu;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "TextEditor";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Текстовый редактор";
@@ -157,5 +185,8 @@
         private ColorDialog ColorDialog;
         private RichTextBox TextArea;
         private ToolStripMenuItem ExidFileButton;
+        private ToolStripMenuItem BackgroundColorButton;
+        private ToolStripMenuItem TextColorButton;
+        private ToolStripMenuItem FontButton;
     }
 }

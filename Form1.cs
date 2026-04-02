@@ -1,3 +1,5 @@
+using System.Security.Cryptography;
+using System.Threading.Channels;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Task4_TextEditor
@@ -36,6 +38,19 @@ namespace Task4_TextEditor
                     string FileText = System.IO.File.ReadAllText(FilePath);
                     this.Text = FilePath;
                     TextArea.Text = FileText;
+
+                    if(FilePath.EndsWith(".doc") || FilePath.EndsWith(".docx"))
+                    {
+                        //var FileAttributes = System.IO.File.GetAttributes(FilePath);
+                        //TextArea.BackColor = FileAttributes.Background;
+                    }
+                    else
+                    {
+                        TextArea.BackColor = SystemColors.Window;
+                        TextArea.Font = this.Font;
+                        TextArea.ForeColor = SystemColors.WindowText;
+                    }
+                    
                     SavingChanges = true;
                 }
             }
@@ -53,19 +68,14 @@ namespace Task4_TextEditor
             }
             this.Text = "Текстовый редактор";
             TextArea.Text = "";
+            TextArea.BackColor = SystemColors.Window;
+            TextArea.Font = this.Font;
+            TextArea.ForeColor = SystemColors.WindowText;
         }
 
         private void TextArea_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (this.Text == "Текстовый редактор")
-            {
-                this.Text = "Новый документ";
-            }
-            if (!this.Text.EndsWith("*"))
-            {
-                this.Text += " *";
-                SavingChanges = false;
-            }
+            ChangeCheckFunction();
         }
 
         private void SaveFileButton_Click(object sender, EventArgs e)
@@ -82,18 +92,23 @@ namespace Task4_TextEditor
 
         public void SaveChangesAction(string SaveType)
         {
-            if(!this.Text.EndsWith("*") || this.Text == "Текстовый редактор")
+            if (this.Text == "Текстовый редактор")
             {
-               MessageBox.Show("Изменений для сохранения нет", "Сохранение файла", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Откройте файл для редактирования или создайте новый путем ввода текста", "Сохранение файла", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
+                if (!this.Text.EndsWith("*") && SaveType == "Save")
+                {
+                    MessageBox.Show("Изменений для сохранения нет", "Сохранение файла", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
                 DialogResult result = MessageBox.Show("Вы уверены, что хотите сохранить изменения?", "Сохранение файла", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
                 if (result == DialogResult.Yes)
                 {
                     using (SaveFileDialog sfd = new SaveFileDialog())
                     {
-                        if (string.IsNullOrEmpty(FilePath) || SaveType=="SaveAs")
+                        if (string.IsNullOrEmpty(FilePath) || SaveType == "SaveAs")
                         {
                             sfd.Title = "Выберите расположение для файла";
                             sfd.InitialDirectory = "c:\\";
@@ -105,6 +120,11 @@ namespace Task4_TextEditor
                             {
                                 FilePath = sfd.FileName;
                                 System.IO.File.WriteAllText(FilePath, TextArea.Text);
+                                if (FilePath.EndsWith(".doc") || FilePath.EndsWith(".docx"))
+                                {
+                                    //var FileAttributes = System.IO.File.GetAttributes(FilePath);
+                                    //TextArea.BackColor = FileAttributes.Background;
+                                }
                                 MessageBox.Show("Изменения сохранены", "Сохранение файла", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 SavingChanges = true;
                                 this.Text = FilePath;
@@ -113,6 +133,12 @@ namespace Task4_TextEditor
                         else
                         {
                             System.IO.File.WriteAllText(FilePath, TextArea.Text);
+                            if (FilePath.EndsWith(".doc") || FilePath.EndsWith(".docx"))
+                            {
+                                //var FileAttributes = System.IO.File.GetAttributes(FilePath);
+                                //TextArea.BackColor = FileAttributes.Background;
+                            }
+                            
                             MessageBox.Show("Изменения сохранены", "Сохранение файла", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             SavingChanges = true;
                             this.Text = FilePath;
@@ -120,11 +146,54 @@ namespace Task4_TextEditor
                     }
                 }
                 else if (result == DialogResult.No || result == DialogResult.Cancel)
-                {  
-                    return; 
+                {
+                    return;
                 }
             }
-            
+
+        }
+
+        private void BackgroundColorButton_Click(object sender, EventArgs e)
+        {
+            ColorDialog color = new ColorDialog();
+            if (color.ShowDialog() == DialogResult.OK)
+            {
+                TextArea.BackColor = color.Color;
+                ChangeCheckFunction();
+            }
+        }
+
+        private void TextColorButton_Click(object sender, EventArgs e)
+        {
+            ColorDialog color = new ColorDialog();
+            if (color.ShowDialog() == DialogResult.OK)
+            {
+                TextArea.ForeColor = color.Color;
+                ChangeCheckFunction();
+            }
+        }
+
+        private void FontButton_Click(object sender, EventArgs e)
+        {
+            FontDialog font = new FontDialog();
+            if(font.ShowDialog() == DialogResult.OK)
+            {
+                TextArea.Font = font.Font;
+                ChangeCheckFunction();
+            }
+        }
+
+        public void ChangeCheckFunction()
+        {
+            if (this.Text == "Текстовый редактор")
+            {
+                this.Text = "Новый документ";
+            }
+            if (!this.Text.EndsWith("*"))
+            {
+                this.Text += " *";
+                SavingChanges = false;
+            }
         }
     }
 }
