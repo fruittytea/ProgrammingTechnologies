@@ -1,6 +1,7 @@
 using System.Security.Cryptography;
 using System.Threading.Channels;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Word = Microsoft.Office.Interop.Word;
 
 namespace Task4_TextEditor
 {
@@ -39,18 +40,10 @@ namespace Task4_TextEditor
                     this.Text = FilePath;
                     TextArea.Text = FileText;
 
-                    if(FilePath.EndsWith(".doc") || FilePath.EndsWith(".docx"))
-                    {
-                        //var FileAttributes = System.IO.File.GetAttributes(FilePath);
-                        //TextArea.BackColor = FileAttributes.Background;
-                    }
-                    else
-                    {
-                        TextArea.BackColor = SystemColors.Window;
-                        TextArea.Font = this.Font;
-                        TextArea.ForeColor = SystemColors.WindowText;
-                    }
-                    
+                    TextArea.BackColor = SystemColors.Window;
+                    TextArea.Font = this.Font;
+                    TextArea.ForeColor = SystemColors.WindowText;
+
                     SavingChanges = true;
                 }
             }
@@ -120,11 +113,6 @@ namespace Task4_TextEditor
                             {
                                 FilePath = sfd.FileName;
                                 System.IO.File.WriteAllText(FilePath, TextArea.Text);
-                                if (FilePath.EndsWith(".doc") || FilePath.EndsWith(".docx"))
-                                {
-                                    //var FileAttributes = System.IO.File.GetAttributes(FilePath);
-                                    //TextArea.BackColor = FileAttributes.Background;
-                                }
                                 MessageBox.Show("Изменения сохранены", "Сохранение файла", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 SavingChanges = true;
                                 this.Text = FilePath;
@@ -133,12 +121,6 @@ namespace Task4_TextEditor
                         else
                         {
                             System.IO.File.WriteAllText(FilePath, TextArea.Text);
-                            if (FilePath.EndsWith(".doc") || FilePath.EndsWith(".docx"))
-                            {
-                                //var FileAttributes = System.IO.File.GetAttributes(FilePath);
-                                //TextArea.BackColor = FileAttributes.Background;
-                            }
-                            
                             MessageBox.Show("Изменения сохранены", "Сохранение файла", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             SavingChanges = true;
                             this.Text = FilePath;
